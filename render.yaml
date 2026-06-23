@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: resilience17-assessment
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node bootstrap.js
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: NODE_ENV
+        value: production

@@ -4,6 +4,9 @@
   "description": "Project Scaffold for R17 Projects",
   "main": "app.js",
   "type": "commonjs",
+  "engines": {
+    "node": "22.x"
+  },
   "repository": {
     "type": "git",
     "url": "profold-be-api-1"
